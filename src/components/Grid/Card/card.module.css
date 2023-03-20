@@ -5,13 +5,15 @@
   gap: 8px;
 }
 .container > div {
-  background-color: lightseagreen;
-  border: 1px solid lightcoral;
+  justify-self: center;
+  align-self: center;
 }
 
-.container > div > span{
-  background-color: antiquewhite;
-  
+.container > div > span {
+  padding: 2px;
+  background-color: lightseagreen;
+  border: 1px solid lightcoral;
+  display: inline-block;
 }
 /* grid-template-areas 基本样式 */
 /* .header {

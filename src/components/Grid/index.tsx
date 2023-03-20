@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import {
   container,
   header,
@@ -11,7 +12,9 @@ import Card from "../Grid/Card";
 const Grid = () => {
   return (
     <main className={container}>
-      <header className={header}>Grid布局案例</header>
+      <header className={header}>
+        <Link to="/">Back to Home</Link>
+      </header>
       <section className={main}>
         <Card />
       </section>

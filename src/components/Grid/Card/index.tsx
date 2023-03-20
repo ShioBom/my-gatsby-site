@@ -11,7 +11,7 @@ import {
 const gridAutoFlow: React.CSSProperties = {
   display: "grid",
   /* grid-template-rows: repeat(4, auto); */
-  gridTemplateRows: `repeat(4, 35px)`,
+  gridTemplateRows: `repeat(4, 40px)`,
   gridAutoFlow: "column",
   gridTemplateColumns: `repeat(3, auto)`,
   gridAutoColumns: 200,

@@ -1,14 +1,20 @@
 .header {
   grid-area: header;
+  background: paleturquoise;
 }
 .main {
   grid-area: main;
+  background: papayawhip;
+
 }
 .sidebar {
   grid-area: sidebar;
+  background: wheat;
+
 }
 .footer {
   grid-area: footer;
+  background: yellowgreen;
 }
 
 .container {
