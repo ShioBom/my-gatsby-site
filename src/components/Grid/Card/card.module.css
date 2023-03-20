@@ -1,13 +1,29 @@
-.item-a {
+/* 通用样式 */
+.container {
+  border: 1px solid lightcoral;
+  margin: 16px;
+  gap: 8px;
+}
+.container > div {
+  background-color: lightseagreen;
+  border: 1px solid lightcoral;
+}
+
+.container > div > span{
+  background-color: antiquewhite;
+  
+}
+/* grid-template-areas 基本样式 */
+/* .header {
   grid-area: header;
 }
-.item-b {
+.main {
   grid-area: main;
 }
-.item-c {
+.sidebar {
   grid-area: sidebar;
 }
-.item-d {
+.footer {
   grid-area: footer;
 }
 
@@ -19,4 +35,9 @@
     "header header header header"
     "main main . sidebar"
     "footer footer footer footer";
+} */
+
+.gridItem1:last-child {
+  grid-column: 7;
+  grid-row: 2;
 }
